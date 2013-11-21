@@ -15,3 +15,4 @@ makepkg -si
 ## Links
 
 * Upstream: http://syncdrive.fr/
+* AUR: https://aur.archlinux.org/packages/?O=0&K=syncdrive
