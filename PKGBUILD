@@ -2,12 +2,12 @@
 
 pkgname=syncdrive
 pkgver=0.9_1
-pkgrel=2
+pkgrel=3
 pkgdesc='Google Drive sync tool relying on grive'
 arch=('x86_64' 'i386')
 url='http://syncdrive.fr'
 license=('proprietary')
-makedepends=('gambas3-runtime' 'gambas3-gb-image' 'gambas3-gb-qt4' 'gambas3-gb-form' 'gambas3-gb-desktop' 'gambas3-gb-web' 'gambas3-gb-form-stock' 'gambas3-gb-sdl-sound' 'grive')
+depends=('gambas3-runtime' 'gambas3-gb-image' 'gambas3-gb-qt4' 'gambas3-gb-form' 'gambas3-gb-desktop' 'gambas3-gb-web' 'gambas3-gb-form-stock' 'gambas3-gb-sdl-sound' 'grive')
 source=('http://syncdrive.fr/?wpdmact=process&did=MTkuaG90bGluaw==')
 sha256sums=('86efa8e81459da8ed651dc3284f9ffffe642d34bfd96a1a78ca334836f9110bb')
 if [[ "$CARCH" = 'i686' ]]; then
